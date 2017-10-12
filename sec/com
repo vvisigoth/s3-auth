@@ -1,0 +1,9 @@
+::
+::::  /hoon/amazonaws/com/sec
+  ::
+/+    s3-auth
+!:
+|_  {bal/(bale keys:s3-auth) $~}
+++  aut  ~(standard s3-auth bal ~)
+++  filter-request  out-adding-header:aut
+--
